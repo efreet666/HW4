@@ -13,6 +13,13 @@
 		F51D728C26B5A64900743815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51D728A26B5A64900743815 /* Main.storyboard */; };
 		F51D728E26B5A64C00743815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51D728D26B5A64C00743815 /* Assets.xcassets */; };
 		F51D729126B5A64C00743815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51D728F26B5A64C00743815 /* LaunchScreen.storyboard */; };
+		F51D72EC26BD765000743815 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D72EB26BD765000743815 /* LoginViewController.swift */; };
+		F51D72F026BD776B00743815 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D72EF26BD776B00743815 /* RegisterViewController.swift */; };
+		F51D72F426BD7B5000743815 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D72F326BD7B5000743815 /* FirstViewController.swift */; };
+		F51D72F826BD92E200743815 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D72F726BD92E100743815 /* SecondViewController.swift */; };
+		F51D72FB26BE919B00743815 /* BillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D72FA26BE919B00743815 /* BillModel.swift */; };
+		F51D72FF26BE933000743815 /* BillViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D72FE26BE933000743815 /* BillViewControllerDelegate.swift */; };
+		F51D730426BEA72C00743815 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D730326BEA72C00743815 /* BillTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		F51D728D26B5A64C00743815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51D729026B5A64C00743815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F51D729226B5A64C00743815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51D72EB26BD765000743815 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F51D72EF26BD776B00743815 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F51D72F326BD7B5000743815 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F51D72F726BD92E100743815 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F51D72FA26BE919B00743815 /* BillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillModel.swift; sourceTree = "<group>"; };
+		F51D72FE26BE933000743815 /* BillViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewControllerDelegate.swift; sourceTree = "<group>"; };
+		F51D730326BEA72C00743815 /* BillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				F51D728426B5A64900743815 /* AppDelegate.swift */,
 				F51D728626B5A64900743815 /* SceneDelegate.swift */,
 				F51D728826B5A64900743815 /* ViewController.swift */,
+				F51D72EB26BD765000743815 /* LoginViewController.swift */,
+				F51D72EF26BD776B00743815 /* RegisterViewController.swift */,
+				F51D72FE26BE933000743815 /* BillViewControllerDelegate.swift */,
+				F51D72FA26BE919B00743815 /* BillModel.swift */,
+				F51D730326BEA72C00743815 /* BillTableViewCell.swift */,
+				F51D72F326BD7B5000743815 /* FirstViewController.swift */,
+				F51D72F726BD92E100743815 /* SecondViewController.swift */,
 				F51D728A26B5A64900743815 /* Main.storyboard */,
 				F51D728D26B5A64C00743815 /* Assets.xcassets */,
 				F51D728F26B5A64C00743815 /* LaunchScreen.storyboard */,
@@ -137,7 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51D72FB26BE919B00743815 /* BillModel.swift in Sources */,
+				F51D72FF26BE933000743815 /* BillViewControllerDelegate.swift in Sources */,
+				F51D72EC26BD765000743815 /* LoginViewController.swift in Sources */,
+				F51D72F026BD776B00743815 /* RegisterViewController.swift in Sources */,
+				F51D730426BEA72C00743815 /* BillTableViewCell.swift in Sources */,
 				F51D728926B5A64900743815 /* ViewController.swift in Sources */,
+				F51D72F426BD7B5000743815 /* FirstViewController.swift in Sources */,
+				F51D72F826BD92E200743815 /* SecondViewController.swift in Sources */,
 				F51D728526B5A64900743815 /* AppDelegate.swift in Sources */,
 				F51D728726B5A64900743815 /* SceneDelegate.swift in Sources */,
 			);
